@@ -1,5 +1,5 @@
+server:
+  port: 6001
 spring:
   application:
     name: plat-server
-server:
-  port: 6001
