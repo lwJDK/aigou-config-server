@@ -1,9 +1,9 @@
-
+server:
+  port: 4000
 spring:
   application:
     name: zuul
-server:
-  port: 4000
+
 zuul:
   ignoredServices: '*'  # 忽略所有
   routes:
