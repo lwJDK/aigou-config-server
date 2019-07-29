@@ -4,6 +4,14 @@ spring:
 server:
   port: 4000
 
+zuul:
+  ignoredServices: '*'  # 忽略所有
+  routes:
+    plat:
+      path: /plat/**  # 平台服务的请求路径
+      serviceId: plat-server
+  prefix: /service # 请求前缀
+
 
 
 
